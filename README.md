@@ -1,6 +1,14 @@
-# Express Boilerplate!
+# Fullstack Boilerplate!
 
 This is a boilerplate project used for starting new projects!
+
+## Backend
+
+The server side is going to be an Express app with a "Heroku" deployment work flow.
+
+## Frontend
+
+The client side will be handled in "Next.js" with "TailwindCSS" for quick tooling and styling.
 
 ## Set up
 
@@ -11,7 +19,7 @@ Complete the following steps to start a new project (NEW-PROJECT-NAME):
 3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
 4. Install the node dependencies `npm install`
 5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "full-stack-boilerplate",`
 
 ## Scripts
 
@@ -24,3 +32,5 @@ Run the tests `npm test`
 ## Deploying
 
 When your new project is ready for deployment, add a new Heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's master branch.
+
+For the frontend, deploy to "Vercel" with their built in app building.
